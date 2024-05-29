@@ -1,0 +1,29 @@
+{
+    "mozsearch_path": "$MOZSEARCH_PATH",
+    "config_repo": "$CONFIG_REPO",
+    "default_tree": "graphviz",
+    "instance_type": "t3.xlarge",
+
+    "trees": {
+      "graphviz": {
+        "priority": 3,
+        "on_error": "continue",
+        "cache": "codesearch",
+        "index_path": "$WORKING/graphviz",
+        "files_path": "$WORKING/graphviz/git",
+        "git_path": "$WORKING/graphviz/git",
+        "git_blame_path": "$WORKING/graphviz/blame",
+        "github_repo": "https://gitlab.com/graphviz/graphviz/-",
+        "objdir_path": "$WORKING/graphviz/objdir",
+        "ignore_missing_path_prefixes": [
+          "$WORKING/graphviz/objdir/conftest",
+          "$WORKING/graphviz/objdir/libltdl/.libs/libltdlcS.c",
+          "$WORKING/graphviz/objdir/libltdl/confdefs.h",
+          "$WORKING/graphviz/objdir/libltdl/conftest"
+        ],
+        "codesearch_path": "$WORKING/graphviz/livegrep.idx",
+        "codesearch_port": 8082,
+        "scip_subtrees": {}
+      }
+    }
+  }
