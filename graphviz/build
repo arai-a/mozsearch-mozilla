@@ -13,7 +13,7 @@ $MOZSEARCH_PATH/scripts/indexer-setup.py > $INDEX_ROOT/config
 # its flags and if we use the default of "ld" we end up with it complaining
 # about "-load" because it doesn't understand the "-Xclang" syntax that precedes
 # it.
-export LD=lld
+# export LD=lld
 
 rm -rf $OBJDIR
 mkdir -p $OBJDIR
