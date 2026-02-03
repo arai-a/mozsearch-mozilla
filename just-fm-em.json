@@ -1,0 +1,21 @@
+{
+  "mozsearch_path": "$MOZSEARCH_PATH",
+  "config_repo": "$CONFIG_REPO",
+  "default_tree": "enterprise-main",
+  "instance_type": "t3.xlarge",
+
+  "trees": {
+    "firefox-main": {
+      "IMPORT": {
+        "file": "$CONFIG_REPO/config1.json",
+        "tree_name": "firefox-main"
+      }
+    },
+    "enterprise-main": {
+      "IMPORT": {
+        "file": "$CONFIG_REPO/config7.json",
+        "tree_name": "enterprise-main"
+      }
+    }
+  }
+}
