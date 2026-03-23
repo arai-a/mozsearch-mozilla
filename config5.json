@@ -19,7 +19,8 @@
           "$WORKING/wubkat/objdir/CMakeFiles/CMakeScratch/"
         ],
         "codesearch_path": "$WORKING/wubkat/livegrep.idx",
-        "codesearch_port": 8081,
+        "codesearch_ports": [8081, 8181],
+        "codesearch_stat": "$WORKING/wubkat/codesearch.json",
         "scip_subtrees": {},
         "group": "Other",
         "group_order": 0,
@@ -44,7 +45,8 @@
           "$WORKING/graphviz/objdir/libltdl/conftest"
         ],
         "codesearch_path": "$WORKING/graphviz/livegrep.idx",
-        "codesearch_port": 8082,
+        "codesearch_ports": [8082, 8182],
+        "codesearch_stat": "$WORKING/graphviz/codesearch.json",
         "scip_subtrees": {},
         "group": "Other",
         "group_order": 0,

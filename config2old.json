@@ -16,7 +16,8 @@
       "hg_root": "https://hg.mozilla.org/releases/mozilla-beta",
       "objdir_path": "$WORKING/mozilla-beta/objdir",
       "codesearch_path": "$WORKING/mozilla-beta/livegrep.idx",
-      "codesearch_port": 8081,
+      "codesearch_ports": [8081, 8181],
+      "codesearch_stat": "$WORKING/mozilla-beta/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -32,7 +33,8 @@
       "hg_root": "https://hg.mozilla.org/releases/mozilla-release",
       "objdir_path": "$WORKING/mozilla-release/objdir",
       "codesearch_path": "$WORKING/mozilla-release/livegrep.idx",
-      "codesearch_port": 8082,
+      "codesearch_ports": [8082, 8182],
+      "codesearch_stat": "$WORKING/mozilla-release/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -48,7 +50,8 @@
       "hg_root": "https://hg.mozilla.org/releases/mozilla-esr115",
       "objdir_path": "$WORKING/mozilla-esr115/objdir",
       "codesearch_path": "$WORKING/mozilla-esr115/livegrep.idx",
-      "codesearch_port": 8083,
+      "codesearch_ports": [8083, 8183],
+      "codesearch_stat": "$WORKING/mozilla-esr115/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -63,7 +66,8 @@
       "hg_root": "https://hg.mozilla.org/releases/comm-esr115",
       "objdir_path": "$WORKING/comm-esr115/objdir",
       "codesearch_path": "$WORKING/comm-esr115/livegrep.idx",
-      "codesearch_port": 8084,
+      "codesearch_ports": [8084, 8184],
+      "codesearch_stat": "$WORKING/comm-esr115/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -79,7 +83,8 @@
       "hg_root": "https://hg.mozilla.org/releases/mozilla-esr128",
       "objdir_path": "$WORKING/mozilla-esr128/objdir",
       "codesearch_path": "$WORKING/mozilla-esr128/livegrep.idx",
-      "codesearch_port": 8085,
+      "codesearch_ports": [8085, 8185],
+      "codesearch_stat": "$WORKING/mozilla-esr128/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -94,7 +99,8 @@
       "hg_root": "https://hg.mozilla.org/releases/comm-esr128",
       "objdir_path": "$WORKING/comm-esr128/objdir",
       "codesearch_path": "$WORKING/comm-esr128/livegrep.idx",
-      "codesearch_port": 8086,
+      "codesearch_ports": [8086, 8186],
+      "codesearch_stat": "$WORKING/comm-esr128/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -110,7 +116,8 @@
       "hg_root": "https://hg.mozilla.org/releases/mozilla-esr140",
       "objdir_path": "$WORKING/mozilla-esr140/objdir",
       "codesearch_path": "$WORKING/mozilla-esr140/livegrep.idx",
-      "codesearch_port": 8087,
+      "codesearch_ports": [8087, 8187],
+      "codesearch_stat": "$WORKING/mozilla-esr140/codesearch.json",
       "scip_subtrees": {}
     }
   }

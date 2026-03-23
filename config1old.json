@@ -19,7 +19,8 @@
       "wpt_root": "testing/web-platform",
       "objdir_path": "$WORKING/mozilla-central/objdir",
       "codesearch_path": "$WORKING/mozilla-central/livegrep.idx",
-      "codesearch_port": 8082,
+      "codesearch_ports": [8082, 8182],
+      "codesearch_stat": "$WORKING/mozilla-central/codesearch.json",
       "scip_subtrees": {
         "python": {
           "scip_index_path": "$WORKING/mozilla-central/python.scip",
@@ -40,7 +41,8 @@
       "hg_root": "https://hg.mozilla.org/comm-central",
       "objdir_path": "$WORKING/comm-central/objdir",
       "codesearch_path": "$WORKING/comm-central/livegrep.idx",
-      "codesearch_port": 8083,
+      "codesearch_ports": [8083, 8183],
+      "codesearch_stat": "$WORKING/comm-central/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -53,7 +55,8 @@
       "git_path": "$WORKING/mozilla-mobile/git",
       "objdir_path": "$WORKING/mozilla-mobile/objdir",
       "codesearch_path": "$WORKING/mozilla-mobile/livegrep.idx",
-      "codesearch_port": 8084,
+      "codesearch_ports": [8084, 8184],
+      "codesearch_stat": "$WORKING/mozilla-mobile/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -68,7 +71,8 @@
       "github_repo": "https://github.com/mozsearch/mozsearch",
       "objdir_path": "$WORKING/mozsearch/objdir",
       "codesearch_path": "$WORKING/mozsearch/livegrep.idx",
-      "codesearch_port": 8085,
+      "codesearch_ports": [8085, 8185],
+      "codesearch_stat": "$WORKING/mozsearch/codesearch.json",
       "scip_subtrees": {
         "python": {
           "scip_index_path": "$WORKING/mozsearch/python.scip",
@@ -92,7 +96,8 @@
       "github_repo": "https://github.com/mozsearch/mozsearch-mozilla",
       "objdir_path": "$WORKING/mozsearch-mozilla/objdir",
       "codesearch_path": "$WORKING/mozsearch-mozilla/livegrep.idx",
-      "codesearch_port": 8086,
+      "codesearch_ports": [8086, 8186],
+      "codesearch_stat": "$WORKING/mozsearch-mozilla/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -105,7 +110,8 @@
       "objdir_path": "$WORKING/mozsearch-tests/objdir",
       "wpt_root": "testing/web-platform",
       "codesearch_path": "$WORKING/mozsearch-tests/livegrep.idx",
-      "codesearch_port": 8087,
+      "codesearch_ports": [8087, 8187],
+      "codesearch_stat": "$WORKING/mozsearch-tests/codesearch.json",
       "scip_subtrees": {}
     },
 
@@ -121,7 +127,8 @@
       "hg_root": "https://hg.mozilla.org/projects/nss",
       "objdir_path": "$WORKING/nss/dist",
       "codesearch_path": "$WORKING/nss/livegrep.idx",
-      "codesearch_port": 8088,
+      "codesearch_ports": [8088, 8188],
+      "codesearch_stat": "$WORKING/nss/codesearch.json",
       "scip_subtrees": {}
     }
   }
